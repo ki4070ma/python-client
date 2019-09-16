@@ -1,0 +1,1589 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>python-client</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#4caf50">
+      
+    
+    
+      <script src="assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="green" data-md-color-accent="lightgreen">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#appium-python-client" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="." title="python-client" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              python-client
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Home
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="." title="python-client" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    python-client
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+    <a href="." title="Home" class="md-nav__link md-nav__link--active">
+      Home
+    </a>
+    
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="docs/roadmap/" title="Roadmap" class="md-nav__link">
+      Roadmap
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Reference
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Reference
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1" type="checkbox" id="nav-3-1">
+    
+    <label class="md-nav__link" for="nav-3-1">
+      Appium
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-1">
+        Appium
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/saucetestcase/" title="Saucetestcase" class="md-nav__link">
+      Saucetestcase
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/version/" title="Version" class="md-nav__link">
+      Version
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-4" type="checkbox" id="nav-3-1-4">
+    
+    <label class="md-nav__link" for="nav-3-1-4">
+      Common
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-1-4">
+        Common
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/common/exceptions/" title="Exceptions" class="md-nav__link">
+      Exceptions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/common/helper/" title="Helper" class="md-nav__link">
+      Helper
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/common/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/common/logger/" title="Logger" class="md-nav__link">
+      Logger
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-5" type="checkbox" id="nav-3-1-5">
+    
+    <label class="md-nav__link" for="nav-3-1-5">
+      Webdriver
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="3">
+      <label class="md-nav__title" for="nav-3-1-5">
+        Webdriver
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/appium_connection/" title="Appium Connection" class="md-nav__link">
+      Appium Connection
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/appium_service/" title="Appium Service" class="md-nav__link">
+      Appium Service
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/applicationstate/" title="Applicationstate" class="md-nav__link">
+      Applicationstate
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/clipboard_content_type/" title="Clipboard Content Type" class="md-nav__link">
+      Clipboard Content Type
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/connectiontype/" title="Connectiontype" class="md-nav__link">
+      Connectiontype
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/errorhandler/" title="Errorhandler" class="md-nav__link">
+      Errorhandler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/mobilecommand/" title="Mobilecommand" class="md-nav__link">
+      Mobilecommand
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/switch_to/" title="Switch To" class="md-nav__link">
+      Switch To
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/webdriver/" title="Webdriver" class="md-nav__link">
+      Webdriver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/webelement/" title="Webelement" class="md-nav__link">
+      Webelement
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-5-12" type="checkbox" id="nav-3-1-5-12">
+    
+    <label class="md-nav__link" for="nav-3-1-5-12">
+      Common
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-1-5-12">
+        Common
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/common/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/common/mobileby/" title="Mobileby" class="md-nav__link">
+      Mobileby
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/common/multi_action/" title="Multi Action" class="md-nav__link">
+      Multi Action
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/common/touch_action/" title="Touch Action" class="md-nav__link">
+      Touch Action
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-5-13" type="checkbox" id="nav-3-1-5-13">
+    
+    <label class="md-nav__link" for="nav-3-1-5-13">
+      Extensions
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="4">
+      <label class="md-nav__title" for="nav-3-1-5-13">
+        Extensions
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/action_helpers/" title="Action Helpers" class="md-nav__link">
+      Action Helpers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/applications/" title="Applications" class="md-nav__link">
+      Applications
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/clipboard/" title="Clipboard" class="md-nav__link">
+      Clipboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/context/" title="Context" class="md-nav__link">
+      Context
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/device_time/" title="Device Time" class="md-nav__link">
+      Device Time
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/execute_driver/" title="Execute Driver" class="md-nav__link">
+      Execute Driver
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/hw_actions/" title="Hw Actions" class="md-nav__link">
+      Hw Actions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/images_comparison/" title="Images Comparison" class="md-nav__link">
+      Images Comparison
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/ime/" title="Ime" class="md-nav__link">
+      Ime
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/keyboard/" title="Keyboard" class="md-nav__link">
+      Keyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/location/" title="Location" class="md-nav__link">
+      Location
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/remote_fs/" title="Remote Fs" class="md-nav__link">
+      Remote Fs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/screen_record/" title="Screen Record" class="md-nav__link">
+      Screen Record
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/search_context/" title="Search Context" class="md-nav__link">
+      Search Context
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/settings/" title="Settings" class="md-nav__link">
+      Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-1-5-13-17" type="checkbox" id="nav-3-1-5-13-17">
+    
+    <label class="md-nav__link" for="nav-3-1-5-13-17">
+      Android
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="5">
+      <label class="md-nav__title" for="nav-3-1-5-13-17">
+        Android
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/activities/" title="Activities" class="md-nav__link">
+      Activities
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/display/" title="Display" class="md-nav__link">
+      Display
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/gsm/" title="Gsm" class="md-nav__link">
+      Gsm
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/" title="Index" class="md-nav__link">
+      Index
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/network/" title="Network" class="md-nav__link">
+      Network
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/performance/" title="Performance" class="md-nav__link">
+      Performance
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/power/" title="Power" class="md-nav__link">
+      Power
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/sms/" title="Sms" class="md-nav__link">
+      Sms
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="reference/appium/webdriver/extensions/android/system_bars/" title="System Bars" class="md-nav__link">
+      System Bars
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="appium-python-client">Appium Python Client</h1>
+<p><a href="https://badge.fury.io/py/Appium-Python-Client"><img alt="PyPI version" src="https://badge.fury.io/py/Appium-Python-Client.svg" /></a></p>
+<p><a href="https://travis-ci.org/appium/python-client"><img alt="Build Status" src="https://travis-ci.org/appium/python-client.svg?branch=master" /></a>
+<a href="https://dev.azure.com/ki4070ma/python-client/_build/latest?definitionId=2&amp;branchName=master"><img alt="Build Status" src="https://dev.azure.com/ki4070ma/python-client/_apis/build/status/appium.python-client?branchName=master" /></a></p>
+<p>An extension library for adding <a href="https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html">Selenium 3.0 draft</a> and <a href="https://github.com/SeleniumHQ/mobile-spec/blob/master/spec-draft.md">Mobile JSON Wire Protocol Specification draft</a>
+functionality to the Python language bindings, for use with the mobile testing
+framework <a href="https://appium.io">Appium</a>.</p>
+<h1 id="getting-the-appium-python-client">Getting the Appium Python client</h1>
+<p>There are three ways to install and use the Appium Python client.</p>
+<ol>
+<li>
+<p>Install from <a href="https://pypi.org">PyPi</a>, as
+<a href="https://pypi.org/project/Appium-Python-Client/">'Appium-Python-Client'</a>.</p>
+<p><code>shell
+pip install Appium-Python-Client</code></p>
+<p>You can see the history from <a href="https://pypi.org/project/Appium-Python-Client/#history">here</a></p>
+</li>
+<li>
+<p>Install from source, via <a href="https://pypi.org">PyPi</a>. From <a href="https://pypi.org/project/Appium-Python-Client/">'Appium-Python-Client'</a>,
+download and unarchive the source tarball (Appium-Python-Client-X.X.tar.gz).</p>
+<p><code>shell
+tar -xvf Appium-Python-Client-X.X.tar.gz
+cd Appium-Python-Client-X.X
+python setup.py install</code></p>
+</li>
+<li>
+<p>Install from source via <a href="https://github.com/appium/python-client">GitHub</a>.</p>
+<p><code>shell
+git clone git@github.com:appium/python-client.git
+cd python-client
+python setup.py install</code></p>
+</li>
+</ol>
+<h1 id="development">Development</h1>
+<ul>
+<li>Style Guide: https://www.python.org/dev/peps/pep-0008/<ul>
+<li><code>autopep8</code> helps to format code automatically
+    <code>$ python -m autopep8 -r --global-config .config-pep8 -i .</code></li>
+<li><code>isort</code> helps to order imports automatically
+    <code>$ python -m isort -rc .</code><ul>
+<li>When you use newly 3rd party modules, add it to <a href=".isort.cfg">.isort.cfg</a> to keep import order correct</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Docstring style: Google Style<ul>
+<li>Refer <a href="https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html">link</a></li>
+</ul>
+</li>
+<li>You can customise <code>CHANGELOG.rst</code> with commit messages following <a href=".gitchangelog.rc">.gitchangelog.rc</a><ul>
+<li>It generates readable changelog</li>
+</ul>
+</li>
+<li>Setup<ul>
+<li><code>pip install --user pipenv</code></li>
+<li><code>python -m pipenv lock --clear</code></li>
+<li>If you experience the below error, then refer <a href="https://github.com/pypa/pipenv/issues/187">pypa/pipenv#187</a> to solve it.
+      <code>Locking Failed! unknown locale: UTF-8</code></li>
+<li><code>python -m pipenv install --dev --system</code></li>
+<li><code>pre-commit install</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="run-tests">Run tests</h2>
+<p>You can run all of tests running on CI via <code>tox</code> in your local.</p>
+<div class="codehilite"><pre><span></span>$ tox
+</pre></div>
+
+
+<p>You also can run particular tests like below.</p>
+<h3 id="unit">Unit</h3>
+<div class="codehilite"><pre><span></span>$ py.test test/unit
+</pre></div>
+
+
+<p>Run with <code>pytest-xdist</code></p>
+<div class="codehilite"><pre><span></span>$ py.test -n <span class="m">2</span> test/unit
+</pre></div>
+
+
+<h3 id="functional">Functional</h3>
+<div class="codehilite"><pre><span></span>$ py.test test/functional/ios/find_by_ios_class_chain_tests.py
+</pre></div>
+
+
+<h3 id="in-parallel-for-ios">In parallel for iOS</h3>
+<ol>
+<li>Create simulators named 'iPhone 6s - 8100' and 'iPhone 6s - 8101'</li>
+<li>Install test libraries via pip
+    <code>$ pip install pytest pytest-xdist</code></li>
+<li>Run tests
+    <code>$ py.test -n 2 test/functional/ios/find_by_ios_class_chain_tests.py</code></li>
+</ol>
+<h1 id="release">Release</h1>
+<p>Follow below steps.</p>
+<div class="codehilite"><pre><span></span>$ pip install twine
+$ pip install git+git://github.com/vaab/gitchangelog.git <span class="c1"># Getting via GitHub repository is necessary for Python 3.7</span>
+<span class="c1"># Type the new version number and &#39;yes&#39; if you can publish it</span>
+<span class="c1"># You can test the command with DRY_RUN</span>
+$ <span class="nv">DRY_RUN</span><span class="o">=</span><span class="m">1</span> ./release.sh
+$ ./release.sh <span class="c1"># release</span>
+</pre></div>
+
+
+<h1 id="usage">Usage</h1>
+<p>The Appium Python Client is fully compliant with the Selenium 3.0 specification
+draft, with some helpers to make mobile testing in Python easier. The majority of
+the usage remains as it has been for Selenium 2 (WebDriver), and as the <a href="https://pypi.org/project/selenium/">official
+Selenium Python bindings</a> begins to
+implement the new specification that implementation will be used underneath, so
+test code can be written that is utilizable with both bindings.</p>
+<p>To use the new functionality now, and to use the superset of functions, instead of
+including the Selenium <code>webdriver</code> module in your test code, use that from
+Appium instead.</p>
+<div class="codehilite"><pre><span></span><span class="kn">from</span> <span class="nn">appium</span> <span class="kn">import</span> <span class="n">webdriver</span>
+</pre></div>
+
+
+<p>From there much of your test code will work with no change.</p>
+<p>As a base for the following code examples, the following sets up the <a href="https://docs.python.org/2/library/unittest.html">UnitTest</a>
+environment:</p>
+<div class="codehilite"><pre><span></span><span class="c1"># Android environment</span>
+<span class="kn">import</span> <span class="nn">unittest</span>
+<span class="kn">from</span> <span class="nn">appium</span> <span class="kn">import</span> <span class="n">webdriver</span>
+
+<span class="n">desired_caps</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;platformName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Android&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;platformVersion&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;8.1&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;automationName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;uiautomator2&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;deviceName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Android Emulator&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;app&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">PATH</span><span class="p">(</span><span class="s1">&#39;../../../apps/selendroid-test-app.apk&#39;</span><span class="p">)</span>
+
+<span class="bp">self</span><span class="o">.</span><span class="n">driver</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">Remote</span><span class="p">(</span><span class="s1">&#39;http://localhost:4723/wd/hub&#39;</span><span class="p">,</span> <span class="n">desired_caps</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="c1"># iOS environment</span>
+<span class="kn">import</span> <span class="nn">unittest</span>
+<span class="kn">from</span> <span class="nn">appium</span> <span class="kn">import</span> <span class="n">webdriver</span>
+
+<span class="n">desired_caps</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;platformName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;iOS&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;platformVersion&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;11.4&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;automationName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;xcuitest&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;deviceName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;iPhone Simulator&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;app&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">PATH</span><span class="p">(</span><span class="s1">&#39;../../apps/UICatalog.app.zip&#39;</span><span class="p">)</span>
+
+<span class="bp">self</span><span class="o">.</span><span class="n">driver</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">Remote</span><span class="p">(</span><span class="s1">&#39;http://localhost:4723/wd/hub&#39;</span><span class="p">,</span> <span class="n">desired_caps</span><span class="p">)</span>
+</pre></div>
+
+
+<h2 id="changed-or-added-functionality">Changed or added functionality</h2>
+<p>The methods that do change are...</p>
+<h3 id="direct-connect-urls">Direct Connect URLs</h3>
+<p>If your Selenium/Appium server decorates the new session capabilities response with the following keys:</p>
+<ul>
+<li><code>directConnectProtocol</code></li>
+<li><code>directConnectHost</code></li>
+<li><code>directConnectPort</code></li>
+<li><code>directConnectPath</code></li>
+</ul>
+<p>Then python client will switch its endpoint to the one specified by the values of those keys.</p>
+<div class="codehilite"><pre><span></span><span class="kn">import</span> <span class="nn">unittest</span>
+<span class="kn">from</span> <span class="nn">appium</span> <span class="kn">import</span> <span class="n">webdriver</span>
+
+<span class="n">desired_caps</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;platformName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;iOS&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;platformVersion&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;11.4&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;automationName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;xcuitest&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;deviceName&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;iPhone Simulator&#39;</span>
+<span class="n">desired_caps</span><span class="p">[</span><span class="s1">&#39;app&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">PATH</span><span class="p">(</span><span class="s1">&#39;../../apps/UICatalog.app.zip&#39;</span><span class="p">)</span>
+
+<span class="bp">self</span><span class="o">.</span><span class="n">driver</span> <span class="o">=</span> <span class="n">webdriver</span><span class="o">.</span><span class="n">Remote</span><span class="p">(</span><span class="s1">&#39;http://localhost:4723/wd/hub&#39;</span><span class="p">,</span> <span class="n">desired_caps</span><span class="p">,</span> <span class="n">direct_connection</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="switching-between-native-and-webview">Switching between 'Native' and 'Webview'</h3>
+<p>For mobile testing the Selenium methods for switching between windows was previously
+commandeered for switching between native applications and webview contexts. Methods
+explicitly for this have been added to the Selenium 3 specification, so moving
+forward these 'context' methods are to be used.</p>
+<p>To get the current context, rather than calling <code>driver.current_window_handle</code> you
+use</p>
+<div class="codehilite"><pre><span></span><span class="n">current</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">current_context</span>
+</pre></div>
+
+
+<p>The available contexts are not retrieved using <code>driver.window_handles</code> but with</p>
+<div class="codehilite"><pre><span></span><span class="n">driver</span><span class="o">.</span><span class="n">contexts</span>
+</pre></div>
+
+
+<p>Finally, to switch to a new context, rather than <code>driver.switch_to.window(name)</code>,
+use the comparable context method</p>
+<div class="codehilite"><pre><span></span><span class="n">context_name</span> <span class="o">=</span> <span class="s2">&quot;WEBVIEW_1&quot;</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">switch_to</span><span class="o">.</span><span class="n">context</span><span class="p">(</span><span class="n">context_name</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="finding-elements-by-ios-uiautomation-search">Finding elements by iOS UIAutomation search</h3>
+<p>This allows elements in iOS applications to be found using recursive element
+search using the UIAutomation library. This method is supported on iOS devices
+that still support UIAutomation, that is, versions which predate XCUITEST.</p>
+<p>Adds the methods <code>driver.find_element_by_ios_uiautomation</code>
+and <code>driver.find_elements_by_ios_uiautomation</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_ios_uiautomation</span><span class="p">(</span><span class="s1">&#39;.elements()[0]&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="s1">&#39;UICatalog&#39;</span><span class="p">,</span> <span class="n">el</span><span class="o">.</span><span class="n">get_attribute</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">))</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="n">els</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_elements_by_ios_uiautomation</span><span class="p">(</span><span class="s1">&#39;.elements()&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="n">els</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="finding-elements-by-android-uiautomator-search">Finding elements by Android UIAutomator search</h3>
+<p>This allows elements in an Android application to be found using recursive element
+search using the UIAutomator library. Adds the methods <code>driver.find_element_by_android_uiautomator</code>
+and <code>driver.find_elements_by_android_uiautomator</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_android_uiautomator</span><span class="p">(</span><span class="s1">&#39;new UiSelector().description(&quot;Animation&quot;)&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="n">els</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_elements_by_android_uiautomator</span><span class="p">(</span><span class="s1">&#39;new UiSelector().clickable(true)&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="n">els</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="finding-elements-by-android-viewtag-search">Finding elements by Android viewtag search</h3>
+<p>This method allows finding elements using <a href="https://developer.android.com/reference/android/view/View#tags">View#tags</a>.
+This method works with <a href="https://github.com/appium/appium-espresso-driver">Espresso Driver</a>.</p>
+<p>Adds the methods <code>driver.find_element_by_android_viewtag</code> and <code>driver.find_elements_by_android_viewtag</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_android_viewtag</span><span class="p">(</span><span class="s1">&#39;a tag name&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="n">els</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_elements_by_android_viewtag</span><span class="p">(</span><span class="s1">&#39;a tag name&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="n">els</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="finding-elements-by-ios-predicates">Finding elements by iOS predicates</h3>
+<p>This method allows finding elements using iOS predicates. The methods take a
+string in the format of a predicate, including element type and the value of
+fields.</p>
+<p>Adds the methods
+<code>driver.find_element_by_ios_predicate</code> and <code>find_elements_by_ios_predicate</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_ios_predicate</span><span class="p">(</span><span class="s1">&#39;wdName == &quot;Buttons&quot;&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="n">els</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_elements_by_ios_predicate</span><span class="p">(</span><span class="s1">&#39;wdValue == &quot;SearchBar&quot; AND isWDDivisible == 1&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="n">els</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="finding-elements-by-ios-class-chain">Finding elements by iOS class chain</h3>
+<p><strong>This method is only for <a href="https://github.com/appium/appium-xcuitest-driver">XCUITest driver</a></strong></p>
+<p>This method allows finding elements using iOS class chain. The methods take
+a string in the format of a class chain, including element type.</p>
+<p>Adds the methods
+<code>driver.find_element_by_ios_class_chain</code> and <code>find_elements_by_ios_class_chain</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_ios_class_chain</span><span class="p">(</span><span class="s1">&#39;XCUIElementTypeWindow/XCUIElementTypeButton[3]&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="n">els</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_elements_by_ios_class_chain</span><span class="p">(</span><span class="s1">&#39;XCUIElementTypeWindow/XCUIElementTypeButton&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="n">els</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="finding-elements-by-accessibility-id">Finding elements by Accessibility ID</h3>
+<p>Allows for elements to be found using the "Accessibility ID". The methods take a
+string representing the accessibility id or label attached to a given element, e.g., for iOS the accessibility identifier and for Android the content-description. Adds the methods
+<code>driver.find_element_by_accessibility_id</code> and <code>find_elements_by_accessibility_id</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_accessibility_id</span><span class="p">(</span><span class="s1">&#39;Animation&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="n">els</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_elements_by_accessibility_id</span><span class="p">(</span><span class="s1">&#39;Animation&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsInstance</span><span class="p">(</span><span class="n">els</span><span class="p">,</span> <span class="nb">list</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="touch-actions">Touch actions</h3>
+<p>In order to accommodate mobile touch actions, and touch actions involving
+multiple pointers, the Selenium 3.0 draft specifies <a href="https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html#touch-gestures">"touch gestures"</a> and <a href="https://dvcs.w3.org/hg/webdriver/raw-file/tip/webdriver-spec.html#multiactions-1">"multi actions"</a>, which build upon the touch actions.</p>
+<p>move_to: note that use keyword arguments if no element</p>
+<p>The API is built around <code>TouchAction</code> objects, which are chains of one or more actions to be performed in a sequence. The actions are:</p>
+<h4 id="perform"><code>perform</code></h4>
+<p>The <code>perform</code> method sends the chain to the server in order to be enacted. It also empties the action chain, so the object can be reused. It will be at the end of all single action chains, but is unused when writing multi-action chains.</p>
+<h4 id="tap"><code>tap</code></h4>
+<p>The <code>tap</code> method stands alone, being unable to be chained with other methods. If you need a <code>tap</code>-like action that starts a longer chain, use <code>press</code>.</p>
+<p>It can take either an element with an optional x-y offset, or absolute x-y coordinates for the tap, and an optional count.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_accessibility_id</span><span class="p">(</span><span class="s1">&#39;Animation&#39;</span><span class="p">)</span>
+<span class="n">action</span> <span class="o">=</span> <span class="n">TouchAction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="p">)</span>
+<span class="n">action</span><span class="o">.</span><span class="n">tap</span><span class="p">(</span><span class="n">el</span><span class="p">)</span><span class="o">.</span><span class="n">perform</span><span class="p">()</span>
+<span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_accessibility_id</span><span class="p">(</span><span class="s1">&#39;Bouncing Balls&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="press"><code>press</code></h4>
+<h4 id="long_press"><code>long_press</code></h4>
+<h4 id="release_1"><code>release</code></h4>
+<h4 id="move_to"><code>move_to</code></h4>
+<h4 id="wait"><code>wait</code></h4>
+<h4 id="cancel"><code>cancel</code></h4>
+<h3 id="multi-touch-actions">Multi-touch actions</h3>
+<p>In addition to chains of actions performed within a single gesture, it is also possible to perform multiple chains at the same time, to simulate multi-finger actions. This is done through building a <code>MultiAction</code> object that comprises a number of individual <code>TouchAction</code> objects, one for each "finger".</p>
+<p>Given two lists next to each other, we can scroll them independently but simultaneously:</p>
+<div class="codehilite"><pre><span></span><span class="n">els</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_elements_by_class_name</span><span class="p">(</span><span class="s1">&#39;listView&#39;</span><span class="p">)</span>
+<span class="n">a1</span> <span class="o">=</span> <span class="n">TouchAction</span><span class="p">()</span>
+<span class="n">a1</span><span class="o">.</span><span class="n">press</span><span class="p">(</span><span class="n">els</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> \
+    <span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">75</span><span class="p">)</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">600</span><span class="p">)</span><span class="o">.</span><span class="n">release</span><span class="p">()</span>
+
+<span class="n">a2</span> <span class="o">=</span> <span class="n">TouchAction</span><span class="p">()</span>
+<span class="n">a2</span><span class="o">.</span><span class="n">press</span><span class="p">(</span><span class="n">els</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span> \
+    <span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">300</span><span class="p">)</span><span class="o">.</span><span class="n">move_to</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">y</span><span class="o">=-</span><span class="mi">600</span><span class="p">)</span><span class="o">.</span><span class="n">release</span><span class="p">()</span>
+
+<span class="n">ma</span> <span class="o">=</span> <span class="n">MultiAction</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="p">,</span> <span class="n">els</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+<span class="n">ma</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">a1</span><span class="p">,</span> <span class="n">a2</span><span class="p">)</span>
+<span class="n">ma</span><span class="o">.</span><span class="n">perform</span><span class="p">();</span>
+</pre></div>
+
+
+<h3 id="appium-specific-touch-actions">Appium-Specific touch actions</h3>
+<p>There are a small number of operations that mobile testers need to do quite a bit that can be relatively complicated to build using the Touch and Multi-touch Action API.  For these we provide some convenience methods in the Appium client.</p>
+<h4 id="drivertap"><code>driver.tap</code></h4>
+<p>This method, on the WebDriver object, allows for tapping with multiple fingers, simply by passing in an array of x-y coordinates to tap.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s1">&#39;Touch Paint&#39;</span><span class="p">)</span>
+<span class="n">action</span><span class="o">.</span><span class="n">tap</span><span class="p">(</span><span class="n">el</span><span class="p">)</span><span class="o">.</span><span class="n">perform</span><span class="p">()</span>
+
+<span class="c1"># set up array of two coordinates</span>
+<span class="n">positions</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="n">positions</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="mi">100</span><span class="p">,</span> <span class="mi">200</span><span class="p">))</span>
+<span class="n">positions</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="mi">100</span><span class="p">,</span> <span class="mi">400</span><span class="p">))</span>
+
+<span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">tap</span><span class="p">(</span><span class="n">positions</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="driverswipe"><code>driver.swipe</code></h4>
+<p>Swipe from one point to another point.</p>
+<h3 id="application-management-methods">Application management methods</h3>
+<p>There are times when you want, in your tests, to manage the running application,
+such as installing or removing an application, etc.</p>
+<h4 id="backgrounding-an-application">Backgrounding an application</h4>
+<p>The method <code>driver.background_app</code> sends the running application to the background
+for the specified amount of time, in seconds. After that time, the application is
+brought back to the foreground.</p>
+<div class="codehilite"><pre><span></span><span class="n">driver</span><span class="o">.</span><span class="n">background_app</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s1">&#39;Animation&#39;</span><span class="p">)</span>
+<span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="checking-if-an-application-is-installed">Checking if an application is installed</h4>
+<p>To check if an application is currently installed on the device, use the <code>device.is_app_installed</code>
+method. This method takes the bundle id of the application and return <code>True</code> or
+<code>False</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">assertFalse</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">is_app_installed</span><span class="p">(</span><span class="s1">&#39;sdfsdf&#39;</span><span class="p">))</span>
+<span class="n">assertTrue</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">driver</span><span class="o">.</span><span class="n">is_app_installed</span><span class="p">(</span><span class="s1">&#39;com.example.android.apis&#39;</span><span class="p">))</span>
+</pre></div>
+
+
+<h4 id="installing-an-application">Installing an application</h4>
+<p>To install an uninstalled application on the device, use <code>device.install_app</code>,
+sending in the path to the application file or archive.</p>
+<div class="codehilite"><pre><span></span><span class="n">assertFalse</span><span class="p">(</span><span class="n">driver</span><span class="o">.</span><span class="n">is_app_installed</span><span class="p">(</span><span class="s1">&#39;io.selendroid.testapp&#39;</span><span class="p">))</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">install_app</span><span class="p">(</span><span class="s1">&#39;/Users/isaac/code/python-client/test/apps/selendroid-test-app.apk&#39;</span><span class="p">)</span>
+<span class="n">assertTrue</span><span class="p">(</span><span class="n">driver</span><span class="o">.</span><span class="n">is_app_installed</span><span class="p">(</span><span class="s1">&#39;io.selendroid.testapp&#39;</span><span class="p">))</span>
+</pre></div>
+
+
+<h4 id="removing-an-application">Removing an application</h4>
+<p>If you need to remove an application from the device, use <code>device.remove_app</code>,
+passing in the application id.</p>
+<div class="codehilite"><pre><span></span><span class="n">assertTrue</span><span class="p">(</span><span class="n">driver</span><span class="o">.</span><span class="n">is_app_installed</span><span class="p">(</span><span class="s1">&#39;com.example.android.apis&#39;</span><span class="p">))</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">remove_app</span><span class="p">(</span><span class="s1">&#39;com.example.android.apis&#39;</span><span class="p">)</span>
+<span class="n">assertFalse</span><span class="p">(</span><span class="n">driver</span><span class="o">.</span><span class="n">is_app_installed</span><span class="p">(</span><span class="s1">&#39;com.example.android.apis&#39;</span><span class="p">))</span>
+</pre></div>
+
+
+<h4 id="closing-and-launching-an-application">Closing and Launching an application</h4>
+<p>To launch the application specified in the desired capabilities, call <code>driver.launch_app</code>.
+Closing that application is initiated by <code>driver.close_app</code></p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s1">&#39;Animation&#39;</span><span class="p">)</span>
+<span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">close_app</span><span class="p">();</span>
+
+<span class="k">try</span><span class="p">:</span>
+    <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s1">&#39;Animation&#39;</span><span class="p">)</span>
+<span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="k">pass</span> <span class="c1"># should not exist</span>
+
+<span class="n">driver</span><span class="o">.</span><span class="n">launch_app</span><span class="p">()</span>
+<span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s1">&#39;Animation&#39;</span><span class="p">)</span>
+<span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="resetting-an-application">Resetting an application</h4>
+<p>To reset the running application, use <code>driver.reset</code>.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s1">&#39;App&#39;</span><span class="p">)</span>
+<span class="n">el</span><span class="o">.</span><span class="n">click</span><span class="p">()</span>
+
+<span class="n">driver</span><span class="o">.</span><span class="n">reset</span><span class="p">()</span>
+<span class="n">sleep</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+
+<span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_name</span><span class="p">(</span><span class="s1">&#39;App&#39;</span><span class="p">)</span>
+<span class="n">assertIsNotNone</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+</pre></div>
+
+
+<h3 id="other-methods">Other methods</h3>
+<h4 id="start-an-arbitrary-activity">Start an arbitrary activity</h4>
+<p>The <code>driver.start_activity</code> method opens arbitrary activities on a device.
+If the activity is not part of the application under test, it will also
+launch the activity's application.</p>
+<div class="codehilite"><pre><span></span><span class="n">driver</span><span class="o">.</span><span class="n">start_activity</span><span class="p">(</span><span class="s1">&#39;com.foo.app&#39;</span><span class="p">,</span> <span class="s1">&#39;.MyActivity&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="retrieving-application-strings">Retrieving application strings</h4>
+<p>The property method <code>driver.app_strings</code> returns the application strings from
+the application on the device.</p>
+<div class="codehilite"><pre><span></span><span class="n">strings</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">app_strings</span>
+</pre></div>
+
+
+<h4 id="sending-a-key-event-to-an-android-device">Sending a key event to an Android device</h4>
+<p>The <code>driver.keyevent</code> method sends a keycode to the device. The keycodes can be
+found <a href="http://developer.android.com/reference/android/view/KeyEvent.html">here</a>.
+Android only.</p>
+<div class="codehilite"><pre><span></span><span class="c1"># sending &#39;Home&#39; key event</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">press_keycode</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="hiding-the-keyboard-in-ios">Hiding the keyboard in iOS</h4>
+<p>To hide the keyboard from view in iOS, use <code>driver.hide_keyboard</code>. If a key name
+is sent, the keyboard key with that name will be pressed. If no arguments are
+passed in, the keyboard will be hidden by tapping on the screen outside the text
+field, thus removing focus from it.</p>
+<div class="codehilite"><pre><span></span><span class="c1"># get focus on text field, so keyboard comes up</span>
+<span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_class_name</span><span class="p">(</span><span class="s1">&#39;android.widget.TextView&#39;</span><span class="p">)</span>
+<span class="n">el</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s1">&#39;Testing&#39;</span><span class="p">)</span>
+
+<span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_class_name</span><span class="p">(</span><span class="s1">&#39;keyboard&#39;</span><span class="p">)</span>
+<span class="n">assertTrue</span><span class="p">(</span><span class="n">el</span><span class="o">.</span><span class="n">is_displayed</span><span class="p">())</span>
+
+<span class="n">driver</span><span class="o">.</span><span class="n">hide_keyboard</span><span class="p">(</span><span class="s1">&#39;Done&#39;</span><span class="p">)</span>
+
+<span class="n">assertFalse</span><span class="p">(</span><span class="n">el</span><span class="o">.</span><span class="n">is_displayed</span><span class="p">())</span>
+</pre></div>
+
+
+<div class="codehilite"><pre><span></span><span class="c1"># get focus on text field, so keyboard comes up</span>
+<span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_class_name</span><span class="p">(</span><span class="s1">&#39;android.widget.TextView&#39;</span><span class="p">)</span>
+<span class="n">el</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s1">&#39;Testing&#39;</span><span class="p">)</span>
+
+<span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by__name</span><span class="p">(</span><span class="s1">&#39;keyboard&#39;</span><span class="p">)</span>
+<span class="n">assertTrue</span><span class="p">(</span><span class="n">el</span><span class="o">.</span><span class="n">is_displayed</span><span class="p">())</span>
+
+<span class="n">driver</span><span class="o">.</span><span class="n">hide_keyboard</span><span class="p">()</span>
+
+<span class="n">assertFalse</span><span class="p">(</span><span class="n">el</span><span class="o">.</span><span class="n">is_displayed</span><span class="p">())</span>
+</pre></div>
+
+
+<h4 id="retrieving-the-current-running-package-and-activity">Retrieving the current running package and activity</h4>
+<p>The property method <code>driver.current_package</code> returns the name of the current
+package running on the device.</p>
+<div class="codehilite"><pre><span></span><span class="n">package</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">current_package</span>
+<span class="n">assertEquals</span><span class="p">(</span><span class="s1">&#39;com.example.android.apis&#39;</span><span class="p">,</span> <span class="n">package</span><span class="p">)</span>
+</pre></div>
+
+
+<p>The property method <code>driver.current_activity</code> returns the name of the current
+activity running on the device.</p>
+<div class="codehilite"><pre><span></span><span class="n">activity</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">current_activity</span>
+<span class="n">assertEquals</span><span class="p">(</span><span class="s1">&#39;.ApiDemos&#39;</span><span class="p">,</span> <span class="n">activity</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="set-a-value-directly-on-an-element">Set a value directly on an element</h4>
+<p>Sometimes one needs to directly set the value of an element on the device. To do
+this, the method <code>driver.set_value</code> or <code>element.set_value</code> is invoked.</p>
+<div class="codehilite"><pre><span></span><span class="n">el</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">find_element_by_class_name</span><span class="p">(</span><span class="s1">&#39;android.widget.EditText&#39;</span><span class="p">)</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="n">el</span><span class="p">,</span> <span class="s1">&#39;Testing&#39;</span><span class="p">)</span>
+
+<span class="n">text</span> <span class="o">=</span> <span class="n">el</span><span class="o">.</span><span class="n">get_attribute</span><span class="p">(</span><span class="s1">&#39;text&#39;</span><span class="p">)</span>
+<span class="n">assertEqual</span><span class="p">(</span><span class="s1">&#39;Testing&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+
+<span class="n">el</span><span class="o">.</span><span class="n">set_value</span><span class="p">(</span><span class="s1">&#39;More testing&#39;</span><span class="p">)</span>
+<span class="n">text</span> <span class="o">=</span> <span class="n">el</span><span class="o">.</span><span class="n">get_attribute</span><span class="p">(</span><span class="s1">&#39;text&#39;</span><span class="p">)</span>
+<span class="n">assertEqual</span><span class="p">(</span><span class="s1">&#39;More testing&#39;</span><span class="p">,</span> <span class="n">text</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="retrieve-a-file-from-the-device">Retrieve a file from the device</h4>
+<p>To retrieve the contents of a file from the device, use <code>driver.pull_file</code>, which
+returns the contents of the specified file encoded in <a href="https://docs.python.org/2/library/base64.html">Base64</a>.</p>
+<div class="codehilite"><pre><span></span><span class="c1"># pulling the strings file for our application</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">pull_file</span><span class="p">(</span><span class="s1">&#39;data/local/tmp/strings.json&#39;</span><span class="p">)</span>
+<span class="n">strings</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">loads</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;base64&#39;</span><span class="p">,</span> <span class="s1">&#39;strict&#39;</span><span class="p">))</span>
+<span class="n">assertEqual</span><span class="p">(</span><span class="s1">&#39;You can</span><span class="se">\&#39;</span><span class="s1">t wipe my data, you are a monkey!&#39;</span><span class="p">,</span> <span class="n">strings</span><span class="p">[</span><span class="sa">u</span><span class="s1">&#39;monkey_wipe_data&#39;</span><span class="p">])</span>
+</pre></div>
+
+
+<h4 id="place-a-file-on-the-device">Place a file on the device</h4>
+<p>To put a file onto the device at a particular place, use the <code>driver.push_file</code>
+method, which takes the path and the data, encoded as <a href="https://docs.python.org/2/library/base64.html">Base64</a>, to be written to the file.</p>
+<div class="codehilite"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;data/local/tmp/test_push_file.txt&#39;</span>
+<span class="n">data</span> <span class="o">=</span> <span class="s1">&#39;This is the contents of the file to push to the device.&#39;</span>
+<span class="n">driver</span><span class="o">.</span><span class="n">push_file</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">data</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="s1">&#39;base64&#39;</span><span class="p">))</span>
+<span class="n">data_ret</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">pull_file</span><span class="p">(</span><span class="s1">&#39;data/local/tmp/test_push_file.txt&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">decode</span><span class="p">(</span><span class="s1">&#39;base64&#39;</span><span class="p">)</span>
+<span class="bp">self</span><span class="o">.</span><span class="n">assertEqual</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">data_ret</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="end-test-coverage">End test coverage</h4>
+<p>There is functionality in the Android emulator to instrument certain activities.
+For information on this, see the <a href="https://github.com/appium/appium/blob/master/docs/en/android_coverage.md">Appium docs</a>. To end this coverage
+and retrieve the data, use <code>driver.end_test_coverage</code>, passing in the <code>intent</code>
+that is being instrumentalized, and the path to the <code>coverage.ec</code> file on the
+device.</p>
+<div class="codehilite"><pre><span></span><span class="n">coverage_ec_file</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">end_test_coverage</span><span class="p">(</span><span class="n">intent</span><span class="o">=</span><span class="s1">&#39;android.intent.action.MAIN&#39;</span><span class="p">,</span> <span class="n">path</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+
+
+<h4 id="lock-the-device">Lock the device</h4>
+<p>To lock the device for a certain amount of time, on iOS, use <code>driver.lock</code>. The
+argument is the number of seconds to wait before unlocking.</p>
+<h4 id="shake-the-device">Shake the device</h4>
+<p>To shake the device, use <code>driver.shake</code>.</p>
+<h4 id="appium-settings">Appium Settings</h4>
+<p>Settings are a new concept introduced by appium. They are currently not a part of the Mobile JSON Wire Protocol, or the Webdriver spec.</p>
+<p>Settings are a way to specify the behavior of the appium server.</p>
+<p>Settings are:</p>
+<p>Mutable, they can be changed during a session
+Only relevant during the session they are applied. They are reset for each new session.
+Control the way the appium server behaves during test automation. They do not apply to controlling the app or device under test.</p>
+<p>See <a href="https://github.com/appium/appium/blob/master/docs/en/advanced-concepts/settings.md">the docs</a> for more information.</p>
+<p>To get settings:</p>
+<div class="codehilite"><pre><span></span><span class="n">settings</span> <span class="o">=</span> <span class="n">driver</span><span class="o">.</span><span class="n">get_settings</span><span class="p">()</span>
+</pre></div>
+
+
+<p>To set settings:</p>
+<div class="codehilite"><pre><span></span><span class="n">driver</span><span class="o">.</span><span class="n">update_settings</span><span class="p">({</span><span class="s2">&quot;some setting&quot;</span><span class="p">:</span> <span class="s2">&quot;the value&quot;</span><span class="p">})</span>
+</pre></div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+        
+          <a href="docs/roadmap/" title="Roadmap" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Roadmap
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Powered by
+        <a href="http://timothycrosley.github.io/portray">portray.</a>
+        You too can
+        <a href="http://timothycrosley.github.io/portray">
+          portray</a>
+        your Python project well using automatic documentation.
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      
+    
+  </body>
+</html>
