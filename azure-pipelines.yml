@@ -3,6 +3,10 @@
 # Add steps that install certificates, test, sign, and distribute an app, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/xcode
 jobs:
+  - template: run-tox-env.yml
+    parameters:
+      jobs:
+        fix_lint: null
   - job: 'unitTests'
     pool:
        vmImage: 'ubuntu-18.04'
